@@ -1,3 +1,7 @@
-private int sum(int a, int b){
+private int sum(int a, int b)throws Exception{
+	// int + int co the > int
+	if((a+b) > Integer.MAX){
+		throw new Exception(); //
+	}
 	return a+b;
 }
