@@ -1,6 +1,6 @@
 private int mul(int a, int b){
 	if(a*b>Integer.MAX){
-		throw new RuntimeException();
+		throw new RuntimeException("Result is over than Max of Integer");
 	}
 	return a*b;
 }
