@@ -1,6 +1,6 @@
 private int div(int a, int b){
 	if(b==0){
-		throw new ArithmeticException() ; //runtime exception
+		throw new ArithmeticException("/ by zero") ; //runtime exception
 	}
 	return a/b;
 }
@@ -8,7 +8,7 @@ private int div(int a, int b){
 
 private int mod(int a, int b){
 	if(b==0){
-		throw new ArithmeticException() ; //runtime exception
+		throw new ArithmeticException("/ by zero") ; //runtime exception
 	}
 	return a%b;
 }
