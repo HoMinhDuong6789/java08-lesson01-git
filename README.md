@@ -1,4 +1,4 @@
 to-do-app
 
-version: 2.0-SNAPSHOT
+version: 2.0
 
